@@ -1,0 +1,20 @@
+@font-face {
+    font-family: GameFont;
+    src: url("Beyovn03IcielPantonBlack.ttf");
+}
+
+@font-face {
+    font-family: HelvetIns;
+    src: url("UTM_HelvetIns.ttf");
+}
+
+.utm-HelvetIns {
+    font-family: HelvetIns;
+}
+
+.IIV::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}

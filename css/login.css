@@ -1,0 +1,23 @@
+.window_login {
+  width: 50%;
+  height: 60%;
+  background: transparent;
+}
+
+#btnOK {
+  /* background: url(../img/system/btn_ok.png) no-repeat; */
+  /* border-radius: 50px; */
+  width: 16%;
+  height: 22%;
+  border-color: transparent;
+}
+
+.btn_large {
+  width: 21%;
+  height: 15%;
+}
+
+.btn_small {
+  width: 16%;
+  height: 11%;
+}

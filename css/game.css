@@ -1,0 +1,202 @@
+/* ::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+::-ms-input-placeholder {
+  color: #ffffff;
+} */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+span {
+  vertical-align: middle;
+}
+
+
+.menu_btn {
+  width: 58%;
+  height: 8%;
+  z-index: 100;
+}
+
+.ui-loader {
+  visibility: hidden;
+}
+
+
+button:hover {
+  background-color: #4285F4;
+  color: white;
+}
+
+button span {
+  margin-right: 10px;
+}
+
+#pointReward {
+  animation-name: coinGiftAnimation;
+  animation-duration: 1s;
+}
+
+/* @media screen and (max-height: 749px) and (min-width: 749px) {
+  span {
+    font-size: 20px !important;
+  }
+} */
+
+#Content {
+  /* background: linear-gradient(167.77deg, #FFFFFF 25.64%, #DDFFFF 122.6%); */
+}
+
+.btnLeague {
+  width: 30%;
+  height: 13%;
+}
+
+input {
+  /* border-radius: 36px;
+  border: transparent;
+  padding: 20px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  Outline: none; */
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 163px 0px 10px;
+
+  width: 297px;
+  height: 39px;
+
+  border: 1px solid #C5C5C5;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+input:autofill {
+  border: 3px solid transparent;
+}
+
+.popup {
+  width: 30%;
+  height: 25%;
+  padding: 2%;
+}
+
+.popup img {
+  border-radius: 36px;
+}
+
+.popup .error {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.popup .success {
+  color: gold;
+  font-size: 24px;
+}
+
+.divUpDown {
+  width: 15%;
+  height: 20%;
+  border: white 3px solid;
+  border-radius: 36px;
+  color: white;
+  text-align: center;
+  font-size: 62px;
+}
+
+.divUpDown:hover {
+  background-color: #C5C5C5;
+}
+
+.divUpDown:active {
+  background-color: #c98d00;
+}
+
+.divUpDownChild {
+  width: 15%;
+  height: 15%;
+  border: white 3px solid;
+  border-radius: 36px;
+  color: white;
+  text-align: center;
+  font-size: 62px;
+}
+
+.divUpDownChild:hover {
+  background-color: #C5C5C5;
+}
+
+.divUpDownChild:active {
+  background-color: #c98d00;
+}
+
+.dot {
+  width: 29px;
+  height: 29px;
+}
+
+.btnOpen {
+  width: 10%;
+  height: 8%;
+  background: #c98d00;
+  border-radius: 36px;
+  color: white;
+  font-size: large;
+}
+
+
+@keyframes resultAnimation {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: gold;
+  }
+}
+
+@keyframes playNowAnimation {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: deepskyblue;
+  }
+}
